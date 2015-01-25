@@ -1,0 +1,8 @@
+<h2>Week of 1/11 - 1/17</h2>
+<% @days.each do |day| %>
+  <div class="day">
+    <%= link_to(day) do %>
+      <h3><%= day.date.strftime('%a %d') %></h3>
+    <% end %>
+  </div>
+<% end %>

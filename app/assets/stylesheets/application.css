@@ -1,0 +1,89 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+
+body, html {
+  background: #ff3b4e;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 75%;   
+}
+
+.header {
+  background: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+.header {
+  background: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.main {
+  margin: 0 auto 0;
+}
+
+.main h2 {
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  font-size: 48px;
+  margin: 20px 0;
+  padding: 20px 0;
+}
+
+.day,
+.event {
+  padding: 20px;
+  width: 100%;   
+}
+
+.day:hover,
+.event:hover {
+  background: rgba(255,255,255,0.25);
+}
+
+.day h3,
+.event h3 {
+  color: #fff;
+  font-size: 24px;
+  margin: 0;
+}
+
+.day,
+.event p {
+  color: #fff;
+}
+
+.day:hover a,
+.event:hover a {
+  text-decoration: none;   
+}
+
+.event-detail p {
+  color: #fff;   
+}
+
+p.time {
+  font-size: 20px;
+  font-weight: bold;
+}
